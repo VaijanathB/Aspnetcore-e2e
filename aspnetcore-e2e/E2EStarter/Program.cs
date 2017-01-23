@@ -18,7 +18,7 @@ namespace E2EStarter
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
                 .Build();
-
+            // Test Change. 
             host.Run();
         }
     }
